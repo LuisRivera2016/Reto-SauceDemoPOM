@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="iniciar sesion en la aplicacion de saucedemo" tests="5" skipped="0" failures="0" errors="0" timestamp="2023-03-29T03:09:58" hostname="DESKTOP-DVE4M2B" time="11.826">
+  <properties/>
+  <testcase name="ingresar a la aplicion con credenciales" classname="iniciar sesion en la aplicacion de saucedemo" time="6.751"/>
+  <testcase name="agregar objetos al carro de compras" classname="iniciar sesion en la aplicacion de saucedemo" time="1.817"/>
+  <testcase name="remover un articulo del carro e ir a checkout" classname="iniciar sesion en la aplicacion de saucedemo" time="0.963"/>
+  <testcase name="ingresar informacion de pago y continuar" classname="iniciar sesion en la aplicacion de saucedemo" time="1.345"/>
+  <testcase name="salir de la aplicacion saucedemo" classname="iniciar sesion en la aplicacion de saucedemo" time="0.95"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/BDGSA/Documents/POM/TrainingPOM/trainingAutomationPOM/src/test/resources/features/test_login.feature
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+ingresar a la aplicion con credenciales(iniciar-sesion-en-la-aplicacion-de-saucedemo;ingresar-a-la-aplicion-con-credenciales)
+--------------------------------------------------------------------------------
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Starting Chrome driver instance with capabilities:
+[Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider - Capabilities {acceptInsecureCerts: false, browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --start-maxim...], extensions: []}}
+Starting ChromeDriver 111.0.5563.64 (c710e93d5b63b7095afe8c2c17df34408078439d-refs/branch-heads/5563@{#995}) on port 40804
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+mar 28, 2023 9:10:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTENCIA: Unable to find an exact match for CDP version 111, so returning the closest version found: 108
+[Test worker] INFO com.saucedemo.main.util.GeneralUtil - programa pausado
+[Test worker] INFO  - ?[92m
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+ingresar a la aplicion con credenciales
+----------------------------------------------------------------------?[0m
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/BDGSA/Documents/POM/TrainingPOM/trainingAutomationPOM/src/test/resources/features/test_login.feature
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+agregar objetos al carro de compras(iniciar-sesion-en-la-aplicacion-de-saucedemo;agregar-objetos-al-carro-de-compras)
+--------------------------------------------------------------------------------
+[Test worker] INFO  - ?[92m
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+agregar objetos al carro de compras
+----------------------------------------------------------------------?[0m
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/BDGSA/Documents/POM/TrainingPOM/trainingAutomationPOM/src/test/resources/features/test_login.feature
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+remover un articulo del carro e ir a checkout(iniciar-sesion-en-la-aplicacion-de-saucedemo;remover-un-articulo-del-carro-e-ir-a-checkout)
+--------------------------------------------------------------------------------
+[Test worker] INFO  - ?[92m
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+remover un articulo del carro e ir a checkout
+----------------------------------------------------------------------?[0m
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/BDGSA/Documents/POM/TrainingPOM/trainingAutomationPOM/src/test/resources/features/test_login.feature
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+ingresar informacion de pago y continuar(iniciar-sesion-en-la-aplicacion-de-saucedemo;ingresar-informacion-de-pago-y-continuar)
+--------------------------------------------------------------------------------
+[Test worker] INFO  - ?[92m
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+ingresar informacion de pago y continuar
+----------------------------------------------------------------------?[0m
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/BDGSA/Documents/POM/TrainingPOM/trainingAutomationPOM/src/test/resources/features/test_login.feature
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+salir de la aplicacion saucedemo(iniciar-sesion-en-la-aplicacion-de-saucedemo;salir-de-la-aplicacion-saucedemo)
+--------------------------------------------------------------------------------
+[Test worker] INFO  - ?[92m
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+salir de la aplicacion saucedemo
+----------------------------------------------------------------------?[0m
+]]></system-err>
+</testsuite>
